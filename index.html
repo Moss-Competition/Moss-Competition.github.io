@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOSS</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Media/UI/slimak.png">
 </head>
 <body>
     <div class="app-header">
@@ -36,10 +37,7 @@
             class="auth-input"
           >
       
-          <button id="loginBtn" class="auth-button">
-            Войти
-          </button>
-      
+          <button id="loginBtn" class="auth-button">Войти</button>
         </div>
     </div>
 
@@ -48,18 +46,13 @@
         
         <!-- Вкладка: Голосование -->
         <section id="tab-voting" class="tab-content">
-            <div id="voting-container" class="voting-container">
-                
-            </div>
+            <div id="voting-container" class="voting-container"></div>
+
             <div class="vote-card favorite-track-card">
-                <div class="vote-card-title">
-                  Выберите трек, который Вам понравился больше всего:
-                </div>
-              
-                <select id="favoriteTrackSelect" class="favorite-track-select">
-                  <!-- опции будут добавляться через JS -->
-                </select>
+                <div class="vote-card-title">Выберите трек, который Вам понравился больше всего:</div>
+                <select id="favoriteTrackSelect" class="favorite-track-select"></select>
             </div>
+
             <button id="submit-votes" class="submit-btn">Отправить</button>
         </section>
 
@@ -70,7 +63,6 @@
 
         <!-- Вкладка: Клипы -->
         <section id="tab-clips" class="tab-content">
-            <!-- <div class="list-container" id="clips-list"></div> -->
             <div id="clips-container"></div>
         </section>
         

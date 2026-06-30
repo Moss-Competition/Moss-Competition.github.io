@@ -13,7 +13,7 @@ const data = `
         "points" : 0
       },
         {
-        "track_name": "Tir na nog",
+        "track_name": "Tír Na Nóg",
         "author": "Celtic Woman, Oonagh",
         "track_cover_dir": "Media/Covers/2026/tir_na_nog.jpg",
         "track_dir": "Media/Tracks/2026/Celtic_Woman_-_Tir_na_nog.mp3",
@@ -33,7 +33,7 @@ const data = `
         "points" : 0
       },
       {
-        "track_name": "West end kids",
+        "track_name": "West End Kids",
         "author": "New Politics",
         "track_cover_dir": "Media/Covers/2026/west_end_kids.jpg",
         "track_dir": "Media/Tracks/2026/New_Politics_-_West_End_Kids.mp3",
@@ -53,7 +53,7 @@ const data = `
         "points" : 0
       },
       {
-        "track_name": "NO BATIDAO",
+        "track_name": "NO BATIDÃO",
         "author": "ZXKAI",
         "track_cover_dir": "Media/Covers/2026/no_batidao.jpg",
         "track_dir": "Media/Tracks/2026/ZXKAI_-_NO_BATIDAO.mp3",
@@ -73,11 +73,11 @@ const data = `
         "points" : 0
       },
       {
-        "track_name": "You are the only one",
+        "track_name": "You Are the Only One",
         "author": "Сергей Лазарев",
         "track_cover_dir": "Media/Covers/2026/you_are_the_only_one.jpg",
         "track_dir": "Media/Tracks/2026/SERGEJ_LAZAREV_-_You_are_the_only_one.mp3",
-        "person" : "vatrushka_tyt",
+        "person" : "vatryshka_tyt",
         "country" : "Россия",
         "flag_dir" : "Media/Flags/Russia.png",
         "points" : 0
@@ -94,7 +94,7 @@ const data = `
       },
       {
         "track_name": "Torna a casa",
-        "author": "Maneskin",
+        "author": "Måneskin",
         "track_cover_dir": "Media/Covers/2026/torna_a_casa.jpg",
         "track_dir": "Media/Tracks/2026/Maneskin_-_Torna_a_casa.mp3",
         "person" : "Reinsell",
@@ -103,7 +103,7 @@ const data = `
         "points" : 0
       },
       {
-        "track_name": "We are the people",
+        "track_name": "We Are the People",
         "author": "Empire of the Sun",
         "track_cover_dir": "Media/Covers/2026/empire_of_the_sun.jpg",
         "track_dir": "Media/Tracks/2026/Empire_Of_The_Sun_-_We_Are_The_People.mp3",

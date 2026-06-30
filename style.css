@@ -1,3 +1,5 @@
+/* Made by MaxxTheLightning, 2026 */
+
 :root {
     --bg-color: #121212;
     --card-bg: #1e1e1e;
@@ -668,7 +670,6 @@ body {
     to { transform: scale(1); opacity: 1; }
   }
 
-/* затемнение всего сайта */
 .auth-overlay {
     position: fixed;
     top: 0;
@@ -818,25 +819,21 @@ body {
 
 /* Scrollbar */
 
-/* Ширина всего скроллбара */
 ::-webkit-scrollbar {
-    width: 5px; /* для вертикального */
-    height: 5px; /* для горизонтального */
+    width: 5px;
+    height: 5px;
 }
 
-/* Фон под скроллбаром (рельса) */
 ::-webkit-scrollbar-track {
     background: #ffffff00;
     border-radius: 8px;
 }
 
-/* Сам ползунок (скролл) */
 ::-webkit-scrollbar-thumb {
     background: var(--accent-color);
     border-radius: 8px;
 }
 
-/* Ползунок при наведении */
 ::-webkit-scrollbar-thumb:hover {
     background: var(--accent-color-dark);
 }
