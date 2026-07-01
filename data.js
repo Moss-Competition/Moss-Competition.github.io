@@ -122,7 +122,7 @@ const data = `
         "author": "Måneskin",
         "track_cover_dir": "Media/Covers/2025/Gossip.jpg",
         "track_dir": "Media/Tracks/2025/Maneskin-Gossip.mp3",
-        "person" : "Schrödinger's Rodion",
+        "person" : "Rodion",
         "country" : "Италия",
         "flag_dir" : "Media/Flags/Italy.png",
         "points" : 63
@@ -132,7 +132,7 @@ const data = `
         "author": "Snow Strippers",
         "track_cover_dir": "Media/Covers/2025/Under_Your_Spell.jpg",
         "track_dir": "Media/Tracks/2025/Snow_Strippers-Under_Your_Spell.mp3",
-        "person" : "Takos",
+        "person" : "?",
         "country" : "США",
         "flag_dir" : "Media/Flags/USA.png",
         "points" : 61
@@ -140,12 +140,62 @@ const data = `
       {
         "track_name": "Porque Te Vas",
         "author": "Autumn's Midnight",
-        "track_cover_dir": "Media/Covers/2025/Under_Your_Spell.jpg",
-        "track_dir": "Media/Tracks/2025/Snow_Strippers-Under_Your_Spell.mp3",
-        "person" : "Takos",
-        "country" : "США",
-        "flag_dir" : "Media/Flags/USA.png",
-        "points" : 61
+        "track_cover_dir": "Media/Covers/2025/porque_te_vas.jpg",
+        "track_dir": "Media/Tracks/2025/Autumns_Midnight_Porque_Te_Vas.mp3",
+        "person" : "?",
+        "country" : "Франция",
+        "flag_dir" : "Media/Flags/France.png",
+        "points" : 58
+      },
+      {
+        "track_name": "Bitter Sweet Symphony",
+        "author": "The Verve",
+        "track_cover_dir": "Media/Covers/2025/bitter_sweet_symphony.jpg",
+        "track_dir": "Media/Tracks/2025/The_Verve_-_Bitter_sweet_symphony.mp3",
+        "person" : "?",
+        "country" : "Великобритания",
+        "flag_dir" : "Media/Flags/UK.png",
+        "points" : 59
+      },
+      {
+        "track_name": "Danza Kuduro",
+        "author": "Don Omar",
+        "track_cover_dir": "Media/Covers/2025/danza_kuduro.jpg",
+        "track_dir": "Media/Tracks/2025/don_amar_-_danza_kuduro.mp3",
+        "person" : "?",
+        "country" : "Испания",
+        "flag_dir" : "Media/Flags/Spain.png",
+        "points" : 58
+      },
+      {
+        "track_name": "Волчок (Колыбельная)",
+        "author": "Theodor Bastard",
+        "track_cover_dir": "Media/Covers/2025/volchok.jpg",
+        "track_dir": "Media/Tracks/2025/Theodor_Bastard_-_Volchok_Russkaya_kolybelnaya.mp3",
+        "person" : "vatryshka_tyt",
+        "country" : "Россия",
+        "flag_dir" : "Media/Flags/Russia.png",
+        "points" : 53
+      },
+      {
+        "track_name": "Sugar",
+        "author": "Robin Schulz, Francesco Yates",
+        "track_cover_dir": "Media/Covers/2025/sugar.jpg",
+        "track_dir": "Media/Tracks/2025/Robin_Shulz_-_Sugar_feat_Francesco_Yates.mp3",
+        "person" : "MaxxTheLightning",
+        "country" : "Германия",
+        "flag_dir" : "Media/Flags/Germany.png",
+        "points" : 53
+      },
+      {
+        "track_name": "odoriko",
+        "author": "Vaundy",
+        "track_cover_dir": "Media/Covers/2025/japan.jpg",
+        "track_dir": "Media/Tracks/2025/Vaundy_-_odoriko.mp3",
+        "person" : "?",
+        "country" : "Япония",
+        "flag_dir" : "Media/Flags/japan.png",
+        "points" : 52
       }
     ],
     "clips": [
