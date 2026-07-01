@@ -512,6 +512,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
             const preview = document.createElement("img");
             preview.className = "clip-preview";
+
+            preview.src = clip.preview_dir;
     
             const info = document.createElement("div");
             info.className = "clip-info";
