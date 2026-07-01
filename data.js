@@ -136,6 +136,16 @@ const data = `
         "country" : "США",
         "flag_dir" : "Media/Flags/USA.png",
         "points" : 61
+      },
+      {
+        "track_name": "Porque Te Vas",
+        "author": "Autumn's Midnight",
+        "track_cover_dir": "Media/Covers/2025/Under_Your_Spell.jpg",
+        "track_dir": "Media/Tracks/2025/Snow_Strippers-Under_Your_Spell.mp3",
+        "person" : "Takos",
+        "country" : "США",
+        "flag_dir" : "Media/Flags/USA.png",
+        "points" : 61
       }
     ],
     "clips": [

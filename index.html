@@ -1,3 +1,5 @@
+<!-- Made by MaxxTheLightning, 2026 -->
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -17,6 +19,8 @@
           <option value="2025">2025</option>
         </select>
     </div>
+
+    <!-- Login -->
 
     <div id="authOverlay" class="auth-overlay">
         <div class="auth-modal">
@@ -41,10 +45,12 @@
         </div>
     </div>
 
-    <!-- Основной контейнер для контента -->
+    <!-- Main content container -->
+
     <main id="content-area">
         
-        <!-- Вкладка: Голосование -->
+        <!-- Tab: Voting -->
+
         <section id="tab-voting" class="tab-content">
             <div id="voting-container" class="voting-container"></div>
 
@@ -56,24 +62,30 @@
             <button id="submit-votes" class="submit-btn">Отправить</button>
         </section>
 
-        <!-- Вкладка: Треки -->
+        <!-- Tab: Tracks -->
+
         <section id="tab-tracks" class="tab-content active">
             <div class="list-container" id="tracks-list"></div>
         </section>
 
-        <!-- Вкладка: Клипы -->
+        <!-- Tab: Clips -->
+
         <section id="tab-clips" class="tab-content">
             <div id="clips-container"></div>
         </section>
         
     </main>
 
-    <!-- Скрытый аудиоплеер -->
+    <!-- Audio player -->
+
     <audio id="audio-player"></audio>
 
-    <!-- УНИВЕРСАЛЬНЫЙ ПЛЕЕР (Мини / Полный экран) -->
+    <!-- Mini-player & Fullscreen player -->
+
     <div id="mini-player" class="mini-player">
-        <!-- Кнопка закрытия/сворачивания (видна только на полном экране) -->
+
+        <!-- Close button (only fullscreen)-->
+
         <button id="player-close" class="player-close-btn">&times;</button>
 
         <div class="extra-info">
@@ -88,7 +100,8 @@
             <div id="mini-player-author" class="mini-author">Исполнитель</div>
         </div>
 
-        <!-- Блок дорожки времени (виден только на полном экране) -->
+        <!-- Timeline (only fullscreen) -->
+
         <div class="player-controls-expanded">
             <div class="time-slider-container">
                 <span id="time-current">0:00</span>
@@ -106,7 +119,8 @@
         <canvas id="visualizer"></canvas>
     </div>
 
-    <!-- Модальное окно для просмотра клипов -->
+    <!-- Modal for clips -->
+
     <div id="video-modal" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
@@ -114,7 +128,8 @@
         </div>
     </div>
 
-    <!-- Нижний тулбар -->
+    <!-- Toolbar -->
+
     <nav class="toolbar">
         <button class="nav-btn active" data-tab="tab-voting">
             <img src="Media/UI/vote.png" width="30px" height="30px" id="toolbar-vote">
