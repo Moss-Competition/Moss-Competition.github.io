@@ -663,7 +663,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function sendVotingToTelegram()
     {
         const token = '8856967471:AAFid5LdnOqSrbYiSNxmyqfy3-2CcIUN_lM';
-        const chatId = '5668984243';
+        let chatId = '5668984243';
         let message = `Голоса от <b>${localStorage.getItem("mossUsername")}</b>:\n\n`;
 
         getTracks().forEach((track, index) => {
@@ -687,7 +687,57 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(res => {
             if (res.ok)
             {
-                alert("Ваши голоса успешно отправлены!");
+                //  alert("Ваши голоса успешно отправлены!");
+                localStorage.setItem("mossVoted", "true");
+                loadVoting();
+            }
+            else alert("Ошибка при отправке голосов.");
+        })
+        .catch(err => {
+            console.error("Ошибка:", err);
+            alert("Ошибка при подключении. Попробуйте зайти на сайт с VPN и отправить голоса ещё раз.");
+        });
+
+        chatId = "2144627603";
+
+        fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                chat_id: chatId,
+                text: message,
+                parse_mode: 'HTML'
+            })
+        })
+        .then(res => {
+            if (res.ok)
+            {
+                //  alert("Ваши голоса успешно отправлены!");
+                localStorage.setItem("mossVoted", "true");
+                loadVoting();
+            }
+            else alert("Ошибка при отправке голосов.");
+        })
+        .catch(err => {
+            console.error("Ошибка:", err);
+            alert("Ошибка при подключении. Попробуйте зайти на сайт с VPN и отправить голоса ещё раз.");
+        });
+
+        chatId = "1316447954";
+
+        fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                chat_id: chatId,
+                text: message,
+                parse_mode: 'HTML'
+            })
+        })
+        .then(res => {
+            if (res.ok)
+            {
+                //  alert("Ваши голоса успешно отправлены!");
                 localStorage.setItem("mossVoted", "true");
                 loadVoting();
             }

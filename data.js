@@ -216,47 +216,47 @@ const data = `
   "accounts": [
     {
       "username": "vdskkk",
-      "password": "123456"
+      "password": "iU893y8Kl3"
     },
     {
       "username": "MaxxTheLightning",
-      "password": "123456"
+      "password": "n93haJ39fl"
     },
     {
       "username": "Aamosade",
-      "password": "123456"
+      "password": "Od40Fe34dc"
     },
     {
       "username": "Mutt",
-      "password": "123456"
+      "password": "dk53Df38pr"
     },
     {
       "username": "enya",
-      "password": "123456"
+      "password": "dJ83Sn29fW"
     },
     {
       "username": "Takos",
-      "password": "123456"
+      "password": "9Hl3vu7w8Q"
     },
     {
       "username": "vatryshka_tyt",
-      "password": "123456"
+      "password": "Un28Bd39cv"
     },
     {
       "username": "Reinsell",
-      "password": "123456"
+      "password": "cDn62j3mk3"
     },
     {
       "username": "Rodion",
-      "password": "123456"
+      "password": "clA57Nkd04"
     },
     {
       "username": "Eike",
-      "password": "123456"
+      "password": "Ci29nM39cR"
     },
     {
       "username": "Myatka",
-      "password": "123456"
+      "password": "sEmn49Nj20"
     }
   ]
 }`
