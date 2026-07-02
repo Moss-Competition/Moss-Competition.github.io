@@ -10,7 +10,7 @@ const data = `
         "person" : "vdskkk",
         "country" : "Япония",
         "flag_dir" : "Media/Flags/japan.png",
-        "points" : 0
+        "points" : 68
       },
         {
         "track_name": "Tír Na Nóg",
@@ -20,7 +20,7 @@ const data = `
         "person" : "Eike",
         "country" : "Ирландия",
         "flag_dir" : "Media/Flags/Ireland.png",
-        "points" : 0
+        "points" : 73.5
       },
       {
         "track_name": "Miss You",
@@ -30,7 +30,7 @@ const data = `
         "person" : "MaxxTheLightning",
         "country" : "США",
         "flag_dir" : "Media/Flags/USA.png",
-        "points" : 0
+        "points" : 78.5
       },
       {
         "track_name": "West End Kids",
@@ -40,7 +40,7 @@ const data = `
         "person" : "Aamosade",
         "country" : "Дания",
         "flag_dir" : "Media/Flags/denmark.png",
-        "points" : 0
+        "points" : 79
       },
       {
         "track_name": "Don't Stop Me Now",
@@ -50,7 +50,7 @@ const data = `
         "person" : "Mutt",
         "country" : "Великобритания",
         "flag_dir" : "Media/Flags/UK.png",
-        "points" : 0
+        "points" : 80.5
       },
       {
         "track_name": "NO BATIDÃO",
@@ -60,7 +60,7 @@ const data = `
         "person" : "enya",
         "country" : "Бразилия",
         "flag_dir" : "Media/Flags/Brazil.png",
-        "points" : 0
+        "points" : 69
       },
       {
         "track_name": "Self Aware",
@@ -70,7 +70,7 @@ const data = `
         "person" : "Takos",
         "country" : "Израиль",
         "flag_dir" : "Media/Flags/Israel.png",
-        "points" : 0
+        "points" : 87
       },
       {
         "track_name": "You Are the Only One",
@@ -80,7 +80,7 @@ const data = `
         "person" : "vatryshka_tyt",
         "country" : "Россия",
         "flag_dir" : "Media/Flags/Russia.png",
-        "points" : 0
+        "points" : 65.5
       },
       {
         "track_name": "GIRL HELL 1999",
@@ -90,7 +90,7 @@ const data = `
         "person" : "Myatka",
         "country" : "Канада",
         "flag_dir" : "Media/Flags/Canada.png",
-        "points" : 0
+        "points" : 60
       },
       {
         "track_name": "Torna a casa",
@@ -100,7 +100,7 @@ const data = `
         "person" : "Reinsell",
         "country" : "Италия",
         "flag_dir" : "Media/Flags/Italy.png",
-        "points" : 0
+        "points" : 71
       },
       {
         "track_name": "We Are the People",
@@ -110,7 +110,7 @@ const data = `
         "person" : "Rodion",
         "country" : "Австралия",
         "flag_dir" : "Media/Flags/Australia.png",
-        "points" : 0
+        "points" : 76
       }
     ],
     "clips": []
@@ -132,7 +132,7 @@ const data = `
         "author": "Snow Strippers",
         "track_cover_dir": "Media/Covers/2025/Under_Your_Spell.jpg",
         "track_dir": "Media/Tracks/2025/Snow_Strippers-Under_Your_Spell.mp3",
-        "person" : "?",
+        "person" : "Mutt",
         "country" : "США",
         "flag_dir" : "Media/Flags/USA.png",
         "points" : 61
@@ -142,7 +142,7 @@ const data = `
         "author": "Autumn's Midnight",
         "track_cover_dir": "Media/Covers/2025/porque_te_vas.jpg",
         "track_dir": "Media/Tracks/2025/Autumn_s_Midnight_-_Porque_Te_Vas.mp3",
-        "person" : "?",
+        "person" : "Aamosade",
         "country" : "Франция",
         "flag_dir" : "Media/Flags/France.png",
         "points" : 58
@@ -152,7 +152,7 @@ const data = `
         "author": "The Verve",
         "track_cover_dir": "Media/Covers/2025/bitter_sweet_symphony.jpg",
         "track_dir": "Media/Tracks/2025/The_Verve_-_Bitter_sweet_symphony.mp3",
-        "person" : "?",
+        "person" : "firuukoo",
         "country" : "Великобритания",
         "flag_dir" : "Media/Flags/UK.png",
         "points" : 59
@@ -162,7 +162,7 @@ const data = `
         "author": "Don Omar",
         "track_cover_dir": "Media/Covers/2025/danza_kuduro.jpg",
         "track_dir": "Media/Tracks/2025/don_amar_-_danza_kuduro.mp3",
-        "person" : "?",
+        "person" : "vdskkk",
         "country" : "Испания",
         "flag_dir" : "Media/Flags/Spain.png",
         "points" : 58
@@ -192,7 +192,7 @@ const data = `
         "author": "Vaundy",
         "track_cover_dir": "Media/Covers/2025/japan.jpg",
         "track_dir": "Media/Tracks/2025/Vaundy_-_odoriko.mp3",
-        "person" : "?",
+        "person" : "Takos",
         "country" : "Япония",
         "flag_dir" : "Media/Flags/japan.png",
         "points" : 52
