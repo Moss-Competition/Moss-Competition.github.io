@@ -1,3 +1,5 @@
+// Made by  MaxxTheLightning, 2026
+
 const data = `
 {
   "2026" : {
